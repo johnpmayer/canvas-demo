@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Cargo Web Build",
+            "type": "shell",
+            "command": "cargo web build --target-webasm",
+            "problemMatcher": [
+                "$rustc"
+            ]
+        },
+        {
+            "label": "Cargo Web Start",
+            "type": "shell",
+            "command": "cargo web start --target-webasm",
+            "problemMatcher": [
+                "$rustc"
+            ]
+        }
+    ]
+}
