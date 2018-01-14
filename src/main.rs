@@ -40,7 +40,7 @@ fn main() {
     let program = context.create_program(&vertex_shader, &fragment_shader);
 
     let gl = context.gl;
-    
+
     // Get some data in
 
     let positions = vec!(0., 0., 0., 0.5, 0.7, 0.);

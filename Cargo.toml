@@ -6,6 +6,6 @@ authors = ["John Mayer <dev.mayer.john@dev.bwater.com>"]
 [dependencies]
 stdweb = "0.3.0"
 
-# Future Work
-# glenum = "0.1.0" (bunch of potentially useful constants?) not super critical
-# glsl = "0.7.2" (to write macros to parse shaders and generate type-safe rust modules for gl data binding)
+[build-dependencies]
+glsl = "0.7.2"
+nom = "3"
