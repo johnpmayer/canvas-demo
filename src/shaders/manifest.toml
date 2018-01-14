@@ -1,0 +1,3 @@
+[purple]
+vertex = "purple_vert.glsl"
+fragment = "purple_frag.glsl"
